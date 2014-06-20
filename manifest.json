@@ -1,0 +1,20 @@
+{
+  "name": "Media Keys",
+  "description": "Responds to the MediaPlayPause button to puase your music!",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs", "http://grooveshark.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "toggle-feature": {
+      "suggested_key": { "default": "MediaPlayPause" },
+      "description": "Play/pause your music playing tab.",
+      "global": true
+    }
+  }
+}
