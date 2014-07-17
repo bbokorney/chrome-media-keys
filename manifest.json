@@ -4,7 +4,7 @@
   "version": "1.0",
   "manifest_version": 2,
   "permissions": [
-    "tabs", "http://grooveshark.com/*"
+    "tabs", "http://grooveshark.com/*", "https://soundcloud.com/*"
   ],
   "background": {
     "scripts": ["background.js"],
