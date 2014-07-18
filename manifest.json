@@ -1,10 +1,11 @@
 {
   "name": "Media Keys",
-  "description": "Responds to the MediaPlayPause button to puase your music!",
+  "description": "Responds to the MediaPlayPause button to pause your music!",
   "version": "1.0",
   "manifest_version": 2,
   "permissions": [
-    "tabs", "http://grooveshark.com/*", "https://soundcloud.com/*"
+    "tabs", "http://grooveshark.com/*", "https://soundcloud.com/*",
+             "http://www.pandora.com/*"
   ],
   "background": {
     "scripts": ["background.js"],
